@@ -12,7 +12,8 @@ return [
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
     'modules' => [],
-    'language' => 'de=DE',
+    'language' => 'de-DE',
+    'name' => 'maxAdvanced',
     'components' => [
         'request' => [
             'csrfParam' => '_csrf-backend',
