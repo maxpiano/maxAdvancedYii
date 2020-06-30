@@ -13,7 +13,7 @@ return [
     'bootstrap' => ['log'],
     'modules' => [],
     'language' => 'de-DE',
-    'name' => 'maxAdvanced',
+    'name' => 'maxAdvancedBack',
     'components' => [
         'request' => [
             'csrfParam' => '_csrf-backend',
