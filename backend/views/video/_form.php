@@ -20,6 +20,12 @@ use yii\helpers\Html;
         </div>
 
         <div class="col-sm-4">
+            <div class="embed-responsive embed-responsive-16by9">
+                <video class="embed-responsive-item"
+                       src="<?= $model->getVideoLink() ?>"
+                       controls>
+                </video>
+            </div>
             <div class="mb-3">
                 <div class="text-muted">Video Link</div>
                 <a href="<?= $model->getVideoLink() ?>">Open Video</a>
